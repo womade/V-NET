@@ -1,0 +1,29 @@
+{
+  "name": "V-NET",
+  "description": "中國遠徵",
+  "keywords": [
+    "V-NET部署"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议 VMESS 或 VLESS",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主 ID",
+      "value": "00000000-0000-0000-0000-000000000000",
+      "required": true
+    },
+    "WS_PATH": {
+      "description": "WebSocket 路径",
+      "value": "/yuanzheng",
+      "required": true
+    }
+  },
+  "website": "https://i.ssss.fun",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
